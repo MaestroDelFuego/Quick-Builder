@@ -23,10 +23,12 @@ Enhance the builder's functionality by utilizing the builder.js file, which incl
 Heading, Paragraph, Image 🖼️
 Easily add elements to the canvas with a simple drag-and-drop functionality from the toolbox.
 
-Properties 🛠️
+**Properties 🛠️**
+
 Customize various properties such as background color, text color, font size, margin, font type, and boldness through the toolbox.
 
 **Download Source Code 📥**
+
 Generate and download the source code for the entire website with a click of the "Download Source Code" button.
 
 **Canvas Section**
