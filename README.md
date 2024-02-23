@@ -48,6 +48,7 @@ Bold Option B
 Toggle the bold checkbox to easily apply or remove bold styling to text elements.
 
 **Download Source Code Button 📥**
+
 Click the "Download Source Code" button to obtain a ZIP file containing the complete source code for the website, allowing users to continue development or share their work.
 Conclusion
 Quick Builder provides a versatile and user-friendly platform for designing websites with ease. Explore the toolbox, customize properties, and download the source code to kickstart your web development journey. For advanced features and further customization, refer to the linked styles.css and builder.js files. 🚀
