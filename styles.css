@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#builder {
+    display: flex;
+    height: 100vh;
+}
+
+#toolbox {
+    width: 15%;
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#canvas-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#canvas {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+#properties-panel {
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    order: 1; /* Change the order to 1 to move it below toolbox */
+}
+
+.toolbox-item {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.canvas-element {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.canvas-element button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: xx-large;
+}

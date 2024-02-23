@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Website Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="builder.js" defer></script>
+</head>
+<body>
+    <div id="builder">
+        <div id="toolbox">
+            <h2>Quick Builder</h2>
+            <div class="toolbox-item" data-type="heading">Heading</div>
+            <div class="toolbox-item" data-type="paragraph">Paragraph</div>
+            <div class="toolbox-item" data-type="image">Image</div>
+            <h3>Properties</h3>
+            <label for="background-color">Background Color:</label>
+            <input type="color" id="background-color" value="#ffffff">
+            <br>
+            <label for="element-color">Color:</label>
+            <input type="color" id="element-color" value="#000000">
+            <br>
+            <label for="element-font-size">Font Size:</label>
+            <input type="number" id="element-font-size" value="16">
+            <br>
+            <label for="element-margin">Margin:</label>
+            <input type="number" id="element-margin" value="0">
+            <br>
+            <label for="element-font">Font:</label>
+            <select id="element-font">
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <!-- Add more font options as needed -->
+            </select>
+            <br>
+            <label for="element-bold">Bold:</label>
+            <input type="checkbox" id="element-bold">
+            <br>
+            <br>
+            <br>
+            <button id="download-button">Download Source Code</button>
+        </div>
+        <div id="canvas-container">
+            <div id="canvas" contenteditable="true"></div>
+        </div>
+    </div>
+</body>
+</html>
