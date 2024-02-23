@@ -4,7 +4,9 @@
 Quick Builder is an advanced website builder designed to streamline the website development process. This documentation guides users through the provided HTML template, which includes a functional interface and built-in features for designing and customizing web elements.
 
 **Getting Started**
-1. HTML Structure
+
+**1. HTML Structure**
+
 The HTML file sets up the builder environment with a container (<div id="builder">) housing the toolbox, canvas, and properties sections.
 
 **2. Stylesheet**
