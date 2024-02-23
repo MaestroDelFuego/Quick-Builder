@@ -8,9 +8,11 @@ Quick Builder is an advanced website builder designed to streamline the website 
 The HTML file sets up the builder environment with a container (<div id="builder">) housing the toolbox, canvas, and properties sections.
 
 **2. Stylesheet**
+
 Customize the appearance of your website by modifying the styles.css file linked in the head. Adjust styles to match your design preferences.
 
 **3. JavaScript**
+
 Enhance the builder's functionality by utilizing the builder.js file, which includes essential scripts. Ensure it is linked with the defer attribute for optimal performance.
 
 **Toolbox Features**
