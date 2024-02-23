@@ -22,6 +22,11 @@ toolboxItems.forEach(item => {
         } else if (elementType === 'image') {
             newElement.src = 'placeholder.jpg'; // Provide a placeholder image URL
             newElement.alt = 'Image';
+        } else if (elementType === 'button') {
+            newElement.innerText = 'Click me';
+            newElement.addEventListener('click', () => {
+                alert('Button Clicked!');
+            });
         }
 
         newElement.className = 'canvas-element';
@@ -230,4 +235,21 @@ function getCustomStyles() {
 
 backgroundColorInput.addEventListener('input', () => {
     canvas.style.backgroundColor = backgroundColorInput.value;
+});
+
+// Save/Load Functionality
+document.getElementById('save-button').addEventListener('click', function() {
+    localStorage.setItem('builderState', JSON.stringify(builderState));
+    alert('Builder state saved.');
+});
+
+document.getElementById('load-button').addEventListener('click', function() {
+    const savedState = localStorage.getItem('builderState');
+    if (savedState) {
+        builderState = JSON.parse(savedState);
+        // Implement logic to restore elements on the canvas
+        alert('Builder state loaded.');
+    } else {
+        alert('No saved state found.');
+    }
 });
