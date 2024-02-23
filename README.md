@@ -1,6 +1,7 @@
 **Quick Builder Documentation**
 
 **Introduction**
+
 Quick Builder is an advanced website builder designed to streamline the website development process. This documentation guides users through the provided HTML template, which includes a functional interface and built-in features for designing and customizing web elements.
 
 **Getting Started**
