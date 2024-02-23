@@ -1,22 +1,30 @@
 **👑 Quick Builder Documentation 👑**
 
+
+
 **Introduction**
+
 
 Quick Builder is an advanced website builder designed to streamline the website development process. This documentation guides users through the provided HTML template, which includes a functional interface and built-in features for designing and customizing web elements.
 
+
 **Getting Started**
+
 
 **1. HTML Structure**
 
 The HTML file sets up the builder environment with a container ```(<div id="builder">)``` housing the toolbox, canvas, and properties sections.
 
+
 **2. Stylesheet**
 
 Customize the appearance of your website by modifying the styles.css file linked in the head. Adjust styles to match your design preferences.
 
+
 **3. JavaScript**
 
 Enhance the builder's functionality by utilizing the builder.js file, which includes essential scripts. Ensure it is linked with the defer attribute for optimal performance.
+
 
 **Toolbox Features**
 
@@ -30,6 +38,7 @@ Customize various properties such as background color, text color, font size, ma
 **Download Source Code 📥**
 
 Generate and download the source code for the entire website with a click of the "Download Source Code" button.
+
 
 **Canvas Section**
 
@@ -48,6 +57,7 @@ Choose from available font options or expand the list as needed for a diverse ty
 
 Bold Option B
 Toggle the bold checkbox to easily apply or remove bold styling to text elements.
+
 
 **Download Source Code Button 📥**
 
